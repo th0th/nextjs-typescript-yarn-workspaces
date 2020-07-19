@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "name": "nextjs-typescript-yarn-workspaces",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ]
+}
