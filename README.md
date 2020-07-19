@@ -18,7 +18,7 @@ I named the example workspace packages `@project/components` and `@project/web-a
 
 ## Shameless plug
 
-I am an indie hacker and I am running [WebGazer](https://www.webgazer.io) an uptime monitoring and analytics platform. Actually, this repository is the base of what I am using for WebGazer's frontend part.
+I am an indie hacker and I am running an uptime monitoring  and analytics platform called [WebGazer](https://www.webgazer.io). Actually, this repository is the base of what I am using for WebGazer's frontend part.
 
 ## License
 
