@@ -16,11 +16,7 @@
       "moduleResolution": "node",
       "resolveJsonModule": true,
       "isolatedModules": true,
-      "jsx": "react",
-      "baseUrl": "packages",
-      "paths": {
-        "@project/components": ["components/src/"]
-      }
+      "jsx": "react"
     },
     "exclude": [
       "node_modules"
@@ -32,4 +28,3 @@
       "types.d.ts"
     ]
   }
-  

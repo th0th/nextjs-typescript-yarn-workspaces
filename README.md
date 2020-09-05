@@ -14,7 +14,7 @@ $ yarn workspace @project/web-app dev
 
 ## Renaming for your project
 
-I named the example workspace packages `@project/components` and `@project/web-app`. You can safely rename it to `@my-awesome-project/components` or something like that. Don't forget to also edit `paths` in `tsconfig.json`.
+I named the example workspace packages `@project/components` and `@project/web-app`. You can safely rename it to `@my-awesome-project/components` or something like that.
 
 ## Shameless plug
 
