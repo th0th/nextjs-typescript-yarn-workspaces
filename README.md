@@ -38,11 +38,13 @@ Since multiple packages can use the same typings, and it is very unlikely for di
     $ yarn
     ```
 
-1. Run :)
+1. Start the web-app next.js application
 
     ```shell script
     $ yarn workspace @project/web-app dev
     ```
+   
+   Then the application should be accessible on [http://localhost:3000](http://localhost:3000).
 
 ## License
 
