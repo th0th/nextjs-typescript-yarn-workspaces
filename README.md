@@ -12,6 +12,10 @@ $ yarn install
 $ yarn workspace @project/web-app dev
 ```
 
+## Shameless plug
+
+I am an indie hacker and I am running an uptime monitoring  and analytics platform called [WebGazer](https://www.webgazer.io). Actually, this repository is the base of what I am using for WebGazer's frontend part.
+
 ## Renaming for your project
 
 I named the example workspace packages `@project/components` and `@project/web-app`. You can safely rename it to `@my-awesome-project/components` or something like that.
@@ -24,9 +28,21 @@ The `@types` directory is for your custom global types. Since each Next.js appli
 
 Since multiple packages can use the same typings, and it is very unlikely for different packages to depend on different versions of those typings, @types packages should go into `devDependencies` of the [base package.json](package.json).
 
-## Shameless plug
+## Running
 
-I am an indie hacker and I am running an uptime monitoring  and analytics platform called [WebGazer](https://www.webgazer.io). Actually, this repository is the base of what I am using for WebGazer's frontend part.
+### Development
+
+1. Install dependencies
+
+    ```shell script
+    $ yarn
+    ```
+
+1. Run :)
+
+    ```shell script
+    $ yarn workspace @project/web-app dev
+    ```
 
 ## License
 
