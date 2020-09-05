@@ -16,6 +16,10 @@ $ yarn workspace @project/web-app dev
 
 I named the example workspace packages `@project/components` and `@project/web-app`. You can safely rename it to `@my-awesome-project/components` or something like that.
 
+## Custom types
+
+The `@types` directory is for your custom global types. Since each Next.js application has to own a `tsconfig.json` of its own, these types are also included in [packages/web-app/tsconfig.json](packages/web-app/tsconfig.json).
+
 ## Shameless plug
 
 I am an indie hacker and I am running an uptime monitoring  and analytics platform called [WebGazer](https://www.webgazer.io). Actually, this repository is the base of what I am using for WebGazer's frontend part.
