@@ -3,7 +3,7 @@ import { Header } from '@project/components';
 
 const Index = () => (
   <Header>
-    <h1>Hello World</h1>
+    <h1>Test 1</h1>
   </Header>
 );
 
