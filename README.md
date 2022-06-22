@@ -42,10 +42,6 @@ Since multiple packages can use the same typings, and it is very unlikely for di
 
    Then the application should be accessible on [http://localhost:3000](http://localhost:3000).
 
-## License
-
-Copyright © 2020, Gökhan Sarı. Released under the [MIT License](./LICENSE).
-
 ## Shameless plug
 
 I am an indie hacker, and I am running two services that might useful for your business. Check them out :)
@@ -65,3 +61,7 @@ manually checking it.
 PoeticMetric is a privacy-first, regulation-compliant, blazingly fast analytics tool.
 
 No cookies or personal data collection. So you don't have to worry about cookie banners or GDPR, CCPA, and PECR.
+
+## License
+
+Copyright © 2020, Gökhan Sarı. Released under the [MIT License](./LICENSE).
