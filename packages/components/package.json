@@ -4,10 +4,8 @@
     "version": "1.0.0",
     "license": "SEE LICENSE IN ../../LICENSE",
     "main": "src/index.ts",
-    "dependencies": {
-      "classnames": "^2.2.6"
-    },
     "peerDependencies": {
+      "classnames": "*",
       "react": "*",
       "typescript": "*"
     }
