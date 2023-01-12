@@ -1,8 +1,6 @@
-const withPlugins = require('next-compose-plugins');
-const withTM = require('next-transpile-modules')([
-  '@project/components',
-]);
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  transpilePackages: ['@project/components'],
+};
 
-module.exports = withPlugins([
-  withTM,
-]);
+module.exports = nextConfig;
