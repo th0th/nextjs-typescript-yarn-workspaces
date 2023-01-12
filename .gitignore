@@ -2,3 +2,4 @@ node_modules
 .idea
 .DS_Store
 packages/web-app/.next
+packages/web-app/next-env.d.ts
