@@ -14,13 +14,8 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Set up cache
-        run: |
-          # Cache yarn cache
-          yarn_cache=$(yarn cache dir)
-          mkdir -p /cache/yarn-cache "$yarn_cache"
-          sudo mount --bind /cache/yarn-cache "$yarn_cache"
-
-          # Verify cache size
-          du -sh "$yarn_cache"
+        uses: namespacelabs/nscloud-cache-action@v1
+        with:
+          cache: yarn
       - run: yarn
       - run: yarn workspace @project/web-app build
