@@ -8,9 +8,7 @@ on:
 jobs:
   build:
     runs-on:
-      - nscloud-ubuntu-22.04-amd64-4x8-with-cache
-      - nscloud-cache-size-5gb
-      - nscloud-cache-tag-cache-yarn-workspaces-demo-ci
+      - namespace-profile-amd64-with-caching
     steps:
       - uses: actions/checkout@v3
       - name: Set up cache
