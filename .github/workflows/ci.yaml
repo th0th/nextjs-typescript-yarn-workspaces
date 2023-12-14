@@ -8,6 +8,7 @@ on:
 jobs:
   build:
     runs-on:
+      # Replace with your profile label https://namespace.so/docs/features/faster-github-actions#using-runner-profiles
       - namespace-profile-amd64-with-caching
     steps:
       - uses: actions/checkout@v3
