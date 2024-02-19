@@ -7,9 +7,23 @@ on:
 
 jobs:
   build:
+    strategy:
+      matrix:
+        os:
+          - ubuntu-22.04
+          - ubuntu-22.04-staging
+          - ubuntu-20.04
+          - ubuntu-20.04-staging
+        arch:
+          - amd64
+          - arm64
     runs-on:
       # Replace with your profile label https://namespace.so/docs/features/faster-github-actions#using-runner-profiles
-      - namespace-profile-amd64-with-caching
+      - nscloud-${{ matrix.os }}-${{ matrix.arch }}-2x8-with-cache
+      - nscloud-cache-tag-yarn-cache
+      - nscloud-cache-size-50gb
+      - nscloud-exp-container-image-cache
+      - nscloud-exp-runner-tool-cache-5gb
     steps:
       - uses: actions/checkout@v3
       - name: Set up cache
